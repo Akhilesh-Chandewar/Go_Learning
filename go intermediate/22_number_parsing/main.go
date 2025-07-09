@@ -44,4 +44,12 @@ func main() {
 		return
 	}
 	fmt.Println("Converted hex string to int64:", hexNum, "Type:", fmt.Sprintf("%T", hexNum))
+
+	invalidNum := "456abc"
+	invalidParse, err := strconv.Atoi(invalidNum)
+	if err != nil {
+		fmt.Println("Error parsing value:", err)
+		return
+	}
+	fmt.Println("Parsed invalid number:", invalidParse)
 }

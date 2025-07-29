@@ -1,0 +1,11 @@
+DEBUG: 2025/07/29 11:43:05 main.go:35: This is a debug message written to a file
+DEBUG: 2025/07/29 11:44:27 main.go:35: This is a debug message written to a file
+DEBUG: 2025/07/29 11:44:39 main.go:35: This is a debug message written to a file
+DEBUG: 2025/07/29 11:45:13 main.go:35: This is a debug message written to a file
+INFO: 2025/07/29 11:45:13 main.go:41: This is an info message using custom logger
+WARNING: 2025/07/29 11:45:13 main.go:42: This is a warning message using custom logger
+ERROR: 2025/07/29 11:45:13 main.go:43: This is an error message using custom logger
+DEBUG: 2025/07/29 11:45:29 main.go:35: This is a debug message written to a file
+INFO: 2025/07/29 11:45:29 main.go:41: This is an info message using custom logger
+WARN: 2025/07/29 11:45:29 main.go:42: This is a warning message using custom logger
+ERROR: 2025/07/29 11:45:29 main.go:43: This is an error message using custom logger
